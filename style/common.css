@@ -3,8 +3,8 @@
 /        Fonts
 ******************************/
 @font-face{
-    font-family: Eccentric;
-    src:url(../fonts/EccentricStd.otf);
+    font-family: Berolina;
+    src:url(../fonts/Berolina.ttf);
 }
 
 @font-face{
@@ -13,8 +13,8 @@
 }
 
 @font-face{
-	font-family: Albertus;
-	src: url(../fonts/AlbertusMediumRegular.ttf);
+	font-family: Acme;
+	src: url(../fonts/Acme-Regular.ttf);
 }
 
 @font-face{
@@ -27,14 +27,28 @@
 	src: url(../fonts/LinLibertine_R.ttf);
 }
 
-@font-face{
-	font-family: IntervogueBlack;
-	src: url(../fonts/Intervogue_Black.otf);
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Regular.ttf);
 }
 
-@font-face{
-	font-family: IntervogueReg;
-	src: url(../fonts/Intervogue_Reg.otf);
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face{
@@ -327,7 +341,7 @@
 .vaesen .dice-infos{
     text-align: center;
     font-size: 1em;
-    font-family: 'Albertus';
+    font-family: 'Acme';
     color: #412017;
 }
 
@@ -383,7 +397,7 @@ h1,
 h2,
 h3,
 h4 {
-font-family: Albertus, serif;
+font-family: Acme, serif;
 border-bottom: none;
 margin: 0 0 3px;
 }
@@ -422,7 +436,7 @@ line-height: 40px !important;
     z-index: 999;
     border-radius: 50%;
     margin-left: 0;
-    margin-top: -45px;
+    margin-top: -50px;
     box-shadow: 2px 2px 8px #412017;
     background: #41201788;
 
@@ -531,7 +545,7 @@ border: none;
 
 .vaesen .player .header .name input,
 .vaesen .headquarter .header .name input{ 
-	font-family: Albertus, sans-serif;
+	font-family: Acme, sans-serif;
 	font-size: 1em;
 	padding: 0px;
 	border: 8px solid transparent;

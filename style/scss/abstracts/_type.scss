@@ -2,9 +2,9 @@
 /******************************
 /        Fonts
 ******************************/
-@font-face{
-    font-family: Eccentric;
-    src:url(../fonts/EccentricStd.otf);
+@font-face {
+    font-family: Berolina;
+    src:url(../fonts/Berolina.ttf);
 }
 
 @font-face{
@@ -13,13 +13,23 @@
 }
 
 @font-face{
-	font-family: Albertus;
-	src: url(../fonts/AlbertusMediumRegular.ttf);
+	font-family: Acme;
+	src: url(../fonts/Acme-Regular.ttf);
 }
 
 @font-face{
 	font-family: Baskerville;
 	src: url(../fonts/LibreBaskerville-Regular.ttf);
+}
+@font-face{
+	font-family: Baskerville;
+	src: url(../fonts/LibreBaskerville-Italic.ttf);
+    font-style: italic;
+}
+@font-face{
+	font-family: Baskerville;
+	src: url(../fonts/LibreBaskerville-Bold.ttf);
+    font-width: bold;
 }
 
 @font-face{
@@ -27,14 +37,28 @@
 	src: url(../fonts/LinLibertine_R.ttf);
 }
 
-@font-face{
-	font-family: IntervogueBlack;
-	src: url(../fonts/Intervogue_Black.otf);
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Regular.ttf);
 }
 
-@font-face{
-	font-family: IntervogueReg;
-	src: url(../fonts/Intervogue_Reg.otf);
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(../fonts/Poppins-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face{
